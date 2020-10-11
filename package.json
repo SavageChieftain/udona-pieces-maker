@@ -1,0 +1,17 @@
+{
+  "name": "udona-pieces-maker",
+  "version": "1.0.0",
+  "description": "ユドナリウムのコマ作るスクリプト",
+  "scripts": {
+    "create": "node -r esm ./src/createPiece.js"
+  },
+  "author": "Banzoku",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "esm": "^3.2.25",
+    "fast-glob": "^3.2.4",
+    "make-dir": "^3.1.0",
+    "xml-js": "^1.6.11"
+  }
+}

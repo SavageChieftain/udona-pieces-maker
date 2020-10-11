@@ -1,0 +1,103 @@
+{
+  "_declaration": { "_attributes": { "version": "1.0", "encoding": "UTF-8" } },
+  "character": {
+    "_attributes": {
+      "location.name": "table",
+      "location.x": "600",
+      "location.y": "600",
+      "posZ": "0",
+      "rotate": "0",
+      "roll": "0"
+    },
+    "data": {
+      "_attributes": { "name": "character" },
+      "data": [
+        {
+          "_attributes": { "name": "image" },
+          "data": {
+            "_attributes": { "type": "image", "name": "imageIdentifier" },
+            "_text": "74a3ddd008de3b8fae430981e2eaa0513a741204722694e205a3b9e7b12652c3"
+          }
+        },
+        {
+          "_attributes": { "name": "common" },
+          "data": [
+            { "_attributes": { "name": "name" }, "_text": "キャラクターB" },
+            { "_attributes": { "name": "size" }, "_text": "1" }
+          ]
+        },
+        {
+          "_attributes": { "name": "detail" },
+          "data": [
+            {
+              "_attributes": { "name": "リソース" },
+              "data": [
+                {
+                  "_attributes": {
+                    "type": "numberResource",
+                    "currentValue": "200",
+                    "name": "HP"
+                  },
+                  "_text": "200"
+                },
+                {
+                  "_attributes": {
+                    "type": "numberResource",
+                    "currentValue": "100",
+                    "name": "MP"
+                  },
+                  "_text": "100"
+                }
+              ]
+            },
+            {
+              "_attributes": { "name": "情報" },
+              "data": [
+                {
+                  "_attributes": { "type": "note", "name": "説明" },
+                  "_text": "ここに説明を書く\nあいうえお"
+                },
+                {
+                  "_attributes": { "type": "note", "name": "メモ" },
+                  "_text": "任意の文字列\n１\n２\n３\n４\n５"
+                }
+              ]
+            },
+            {
+              "_attributes": { "name": "能力" },
+              "data": [
+                { "_attributes": { "name": "器用度" }, "_text": "24" },
+                { "_attributes": { "name": "敏捷度" }, "_text": "24" },
+                { "_attributes": { "name": "筋力" }, "_text": "24" },
+                { "_attributes": { "name": "生命力" }, "_text": "24" },
+                { "_attributes": { "name": "知力" }, "_text": "24" },
+                { "_attributes": { "name": "精神力" }, "_text": "24" }
+              ]
+            },
+            {
+              "_attributes": { "name": "戦闘特技" },
+              "data": [
+                { "_attributes": { "name": "Lv1" }, "_text": "全力攻撃" },
+                {
+                  "_attributes": { "name": "Lv3" },
+                  "_text": "武器習熟/ソード"
+                },
+                {
+                  "_attributes": { "name": "Lv5" },
+                  "_text": "武器習熟/ソードⅡ"
+                },
+                { "_attributes": { "name": "Lv7" }, "_text": "頑強" },
+                { "_attributes": { "name": "Lv9" }, "_text": "薙ぎ払い" },
+                { "_attributes": { "name": "自動" }, "_text": "治癒適正" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "chat-palette": {
+      "_attributes": { "dicebot": "" },
+      "_text": "チャットパレット入力例：\n2d6+1 ダイスロール\n１ｄ２０＋{敏捷}＋｛格闘｝　{name}の格闘！\n//敏捷=10+{敏捷A}\n//敏捷A=10\n//格闘＝ １"
+    }
+  }
+}
